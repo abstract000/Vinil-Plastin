@@ -57,9 +57,12 @@ nav {
     padding-bottom: 7px;
     opacity: 0.7;
 }
+.header_active {
+    color: #fff;
+    opacity: 1 !important;
+}
 .header_active::after {
     width: 100% !important;
-    opacity: 1 !important;
 }
 .header_ul a:hover {
     opacity: 1;
