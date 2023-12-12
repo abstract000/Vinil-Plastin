@@ -118,12 +118,12 @@ a:hover::after{
 }
 .header_main a:first-child:hover {
     background: none;
+    background-color: #000;
     color: #fff;
-    border: 1px solid;
 }
 .header_main a:hover {
-    background-color: #D6CE93;
-    color: #2F2F2F;
+    background-color: #000;
+    color: #fff;
     border: none;
 }
 .header_img {
@@ -175,12 +175,13 @@ a:hover::after{
 .intro_cont {
     display: flex;
     gap: 40px;
+    height: 300px;
     text-align: center;
 }
 .intro_cont_item {
     border-radius: 20px;
 }
-.intro_cont_item:hover {
+.intro_cont_item {
     background-color: #35736E1A;
 }
 .intro_cont_item::after{
@@ -238,7 +239,7 @@ a:hover::after{
 .choose_con {
     display: flex;
     flex-wrap: wrap;
-    /* overflow: hidden; */
+    gap: 10px;
 }
 .choose_item {
     width: 247px;
@@ -248,6 +249,13 @@ a:hover::after{
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
+    background-color: #F5AA37;
+    padding: 10px 5px;
+    border-radius: 30px;
+}
+.choose_item:hover {
+    box-shadow: 30px 31px 36px 0px rgba(34, 60, 80, 0.2);
+    transform: translateY(-15px);
 }
 .choose_item i {
     font-size: 22px;
@@ -263,11 +271,9 @@ a:hover::after{
     background-color: #35736E33;
 }
 .choose_title_p {
-    color: #2F2F2F;
     font-weight: 600;
 }
 .choose_info {
-    color: #6A6A6A;
     font-weight: 400;
     margin-top: 9px;
     overflow: hidden;
