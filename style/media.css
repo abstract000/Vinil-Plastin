@@ -36,6 +36,7 @@
         text-align: center;
         align-items: center;
         margin: 100px 0px 120px 0px;
+        height: 950px;
     }
     .intro_text {
         width: 100%;
@@ -128,6 +129,11 @@
     }
     .headeR_main h1 {
         margin-bottom: 40px;
+    }
+    .intro_cont {
+        height: 400px;
+        overflow: scroll;
+        margin: 0 auto;
     }
     .choose_con {
         justify-content: center;
