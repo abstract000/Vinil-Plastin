@@ -181,7 +181,7 @@ a:hover::after{
 .intro_cont_item {
     border-radius: 20px;
 }
-.intro_cont_item {
+.intro_cont_item:hover {
     background-color: #35736E1A;
 }
 .intro_cont_item::after{
